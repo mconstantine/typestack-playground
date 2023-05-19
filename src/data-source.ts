@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import { DataSource, DatabaseType } from "typeorm";
+import { DataSource } from "typeorm";
 import { User } from "./entity/User";
 import { env } from "./env";
 
