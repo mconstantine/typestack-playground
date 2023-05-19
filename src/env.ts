@@ -4,6 +4,7 @@ import { config } from "dotenv";
 config();
 
 const Env = z.object({
+  SERVER_PORT: z.coerce.number(),
   DB_HOST: z.string(),
   DB_PORT: z.coerce.number(),
   DB_USERNAME: z.string(),
