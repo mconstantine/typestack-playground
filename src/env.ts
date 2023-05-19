@@ -10,6 +10,8 @@ const Env = z.object({
   DB_USERNAME: z.string(),
   DB_PASSWORD: z.string(),
   DB_DATABASE: z.string(),
+  DB_TEST_DATABASE: z.string(),
+  SECRET_TOKEN: z.string(),
 });
 type Env = z.infer<typeof Env>;
 
